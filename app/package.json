@@ -1,0 +1,31 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "serve": "rescript && vue-cli-service serve",
+    "hot-rescript": "rescript -make-world -w",
+    "build": "rescript build -w && vue-cli-service build"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.8.0",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.6",
+    "rescript": "*",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "~4.5.0",
+    "gentype": "^3.36.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
